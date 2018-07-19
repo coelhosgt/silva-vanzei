@@ -1,3 +1,2 @@
-meu primeiro readme....
-alterando novamente o readme.
-alterando e atualizando no github.
+Alteracoes de teste de aprendizado no git local.
+enviando ao github.
