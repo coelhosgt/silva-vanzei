@@ -1,0 +1,97 @@
+body{ margin:0;
+	font-family: arial, helvetia, times new roman;
+
+}
+.fundo{
+	display:flex;
+	justify-content: center;
+	background:url('modelofrente.png') repeat-x fixed;
+	width: 100%;
+	padding-top: 250px;
+	padding-bottom:50px;
+	
+}
+
+.topo{
+	display:flex;
+	justify-content: space-between;
+	width: auto;
+	height: 50px;
+	margin:auto;
+	position:absolute;
+	left:10px;
+	top:210px;
+	right: 10px;
+}
+.logo{
+	display: flex;
+	margin:auto;
+	height: 80px;
+	width: 30%;
+	}
+.logo img{
+    width: 120%;	
+	height: 150%;
+	align-items: center;
+	position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+.menu{
+	height: 50px;
+	margin-left: 20px;
+}
+.menu ul{
+	display:flex;
+}
+/* cores do logotipo: azul claro = #0c64d1 e azul escuro = #0a4fa4 */
+.menu ul li{
+	font-size: 14px;
+	font-weight:bolder;
+	background-color: #0c64d1;
+	color: #fff;
+	border:1px solid #000;
+	list-style-type: none;
+	margin-right: 10px;
+	padding:10px;
+	
+		}
+
+.menu ul li:hover{
+	background-color: #0a4fa4;
+	color: #fff;
+	opacity: 0.4;
+	box-shadow: 2px 2px 6px;
+	}
+.menu ul li:active{
+	background-color: #fff;
+	color: #000;
+	opacity: 0.4;
+	box-shadow: 5px 5px 6px;
+	}
+	.container{
+		display:flex;
+		justify-content: space-between;
+		max-width: 1000px;
+		height: auto;
+		background:url('tijolo-branco.jpg') center center fixed repeat-x;
+		margin:auto;
+		
+	}
+	.section_left{
+		max-width: 30%;
+		
+	}
+	.section_right{
+		max-width:30% ;
+	}
+	.article{
+		margin-top: 10px;
+		width:88%;
+		font-size: 16px;
+        border:1px solid #000;
+        padding:20px;
+
+        overflow: hidden;
+   	}
